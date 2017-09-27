@@ -22,7 +22,7 @@ for (var i = 0 ; i < numbers.length; i++) {
 
 // function - show the number of bombs near
 function showNumber() {
-	this.innerText = "1";
+	this.innerText = Math.floor(Math.random() * 3) + 1;
 }
 
 // loop - to add bombs
@@ -43,8 +43,5 @@ buttonReStart.addEventListener('click', reStart);
 
 // function - restart the game
 function reStart() {
-  /*var imgBomb = document.getElementById('imgBomb');
-  containerBombIt.removeChild(imgBomb);
-  containerBombIt.appendChild(tableBombIt);*/
   location.reload();
 }
