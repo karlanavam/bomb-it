@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+}
+
+table, tr, td{
+  border: solid 1px black;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 37%;
+}
+
+td{
+  height: 80px;
+  width: 80px;
+}
+
+button {
+  background-color: #000;
+  color: #FFF;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 1%;
+  border: none;
+}
+
+img {
+  width: 350px;
+}
