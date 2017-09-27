@@ -43,7 +43,8 @@ buttonReStart.addEventListener('click', reStart);
 
 // function - restart the game
 function reStart() {
-  var imgBomb = document.getElementById('imgBomb');
+  /*var imgBomb = document.getElementById('imgBomb');
   containerBombIt.removeChild(imgBomb);
-  containerBombIt.appendChild(tableBombIt);
+  containerBombIt.appendChild(tableBombIt);*/
+  location.reload();
 }
