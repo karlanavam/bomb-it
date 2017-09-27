@@ -25,7 +25,7 @@ for (var i = 0; i < numbers.length; i++) {
 
 // function - show the number of bombs near
 function showNumber() {
-  this.innerText = "1";
+	this.innerText = Math.floor(Math.random() * 3) + 1;
 }
 
 // loop - to add bombs
