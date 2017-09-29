@@ -2,18 +2,19 @@ body {
   text-align: center;
 }
 
-table,
-tr,
-td {
+div{
   border: solid 1px black;
   text-align: center;
   font-size: 20px;
   margin-left: 37%;
-}
-
-td {
   height: 80px;
   width: 80px;
+  display: table-cell;
+  padding: 0;
+}
+
+#bomb-it{
+  margin-left: 37%;
 }
 
 button {
@@ -27,4 +28,13 @@ button {
 
 img {
   width: 350px;
+}
+
+.number{
+  margin: 0;
+  color:white;
+}
+
+.numberShow{
+  color:black;
 }
