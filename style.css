@@ -1,4 +1,4 @@
-body{
+body {
   text-align: center;
 }
 
@@ -6,6 +6,7 @@ div{
   border: solid 1px black;
   text-align: center;
   font-size: 20px;
+  margin-left: 37%;
   height: 80px;
   width: 80px;
   display: table-cell;
@@ -18,7 +19,7 @@ div{
 
 button {
   background-color: #000;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   margin-top: 10px;
   padding: 1%;
