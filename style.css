@@ -5,7 +5,7 @@ body {
 div{
   border: solid 1px black;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
   margin-left: 37%;
   height: 80px;
   width: 80px;
@@ -28,6 +28,7 @@ button {
 
 img {
   width: 350px;
+  margin: 2% 35%;
 }
 
 .number{
