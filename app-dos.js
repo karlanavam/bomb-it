@@ -43,17 +43,9 @@ var drawGameZone = function(array){
       bombIt.appendChild(enter);
       continue;
     }
-
-
     bombIt.appendChild(cell);
   }
-
-  var btnRestart = document.createElement('button');
-  btnRestart.id = "reStart";
-  btnRestart.innerText = "Restart!";
-  btnRestart.addEventListener('click', reStart);
-
-  containerBombIt.appendChild(btnRestart);
+  addBtnRestart();
 };
 
 var changeColor = function () {
@@ -66,12 +58,20 @@ var bombsIt = function () {
   containerBombIt.removeChild(bombIt);
   containerBombIt.innerHTML =
   "<img src='https://media.giphy.com/media/3osxYCsLd9qgsgqpwI/giphy.gif' id='imgBomb' alt='BOOM!'>";
+    addBtnRestart();
 };
 
 var showNumber = function(){
-  this.className = "number numberShow"
+  this.className = "number numberShow";
 }
 
+var addBtnRestart = function(){
+  var btnRestart = document.createElement('button');
+  btnRestart.id = "reStart";
+  btnRestart.innerText = "Restart!";
+  btnRestart.addEventListener('click', reStart);
+  containerBombIt.appendChild(btnRestart);
+};
 
 var reStart = function() {
   location.reload();
